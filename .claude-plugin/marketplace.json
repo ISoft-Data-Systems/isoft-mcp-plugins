@@ -1,0 +1,20 @@
+{
+  "name": "isoft",
+  "owner": {
+    "name": "ISoft Data Systems",
+    "email": "support@isoftdata.com"
+  },
+  "description": "Product-specific Claude Code skills for ISoft Data Systems MCP servers. Install the plugin for the product you use.",
+  "plugins": [
+    {
+      "name": "presage-mcp",
+      "source": "./presage",
+      "description": "Skills for the Presage Analytics MCP server"
+    },
+    {
+      "name": "enterprise-mcp",
+      "source": "./enterprise",
+      "description": "Skills for the ITrack Enterprise MCP server"
+    }
+  ]
+}

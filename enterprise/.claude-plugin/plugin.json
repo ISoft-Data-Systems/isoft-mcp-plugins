@@ -1,0 +1,11 @@
+{
+  "name": "enterprise-mcp",
+  "displayName": "enterprise",
+  "description": "Skills for the Itrack Enterprise MCP server",
+  "author": {
+    "name": "ISoft Data Systems",
+    "email": "support@isoftdata.com"
+  },
+  "version": "0.1.0",
+  "keywords": ["enterprise"]
+}

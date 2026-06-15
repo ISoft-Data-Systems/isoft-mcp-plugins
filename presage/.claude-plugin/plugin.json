@@ -1,0 +1,11 @@
+{
+  "name": "presage-mcp",
+  "displayName": "Presage",
+  "description": "Skills for the Presage Analytics MCP server",
+  "author": {
+    "name": "ISoft Data Systems",
+    "email": "support@isoftdata.com"
+  },
+  "version": "0.1.0",
+  "keywords": ["presage", "analytics"]
+}
