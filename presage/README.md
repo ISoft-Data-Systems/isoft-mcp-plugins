@@ -21,10 +21,10 @@ Claude skills for the Presage LIMS platform — lab data, work orders, samples, 
 [repository README](../README.md#install) for step-by-step instructions:
 
 - **claude.ai (web or Desktop):** Customize → Plugins → **+** → Create plugin → Add
-  marketplace → `https://github.com/isoftdata/isoft-mcp-plugins`, then enable
+  marketplace → `https://github.com/ISoft-Data-Systems/isoft-mcp-plugins`, then enable
   `presage-mcp`.
-- **Claude Code (CLI):** `/plugin marketplace add isoftdata/isoft-mcp-plugins` then
-  `/plugin install presage-mcp@isoft`.
+- **Claude Code (CLI):** `/plugin marketplace add ISoft-Data-Systems/isoft-mcp-plugins` then
+  `/plugin install presage-mcp@ISoft`.
 
 **Upload a single skill:** In claude.ai, go to Customize → Skills and upload either a
 skill's `SKILL.md` (from its folder under [skills/](skills/)) or a `.zip` of the skill

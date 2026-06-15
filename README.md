@@ -15,7 +15,7 @@ Add the marketplace once:
 
 1. Open **Customize → Plugins**.
 2. Click **+ → Create plugin → Add marketplace**.
-3. Enter the repository URL: `https://github.com/isoftdata/isoft-mcp-plugins`
+3. Enter the repository URL: `https://github.com/ISoft-Data-Systems/isoft-mcp-plugins`
 
 The marketplace then appears under **Personal**. Click into it and enable the plugin
 for your product (`presage-mcp` or `enterprise-mcp`) — enable only the one you use.
@@ -25,15 +25,15 @@ for your product (`presage-mcp` or `enterprise-mcp`) — enable only the one you
 Add the marketplace once:
 
 ```
-/plugin marketplace add isoftdata/isoft-mcp-plugins
+/plugin marketplace add ISoft-Data-Systems/isoft-mcp-plugins
 ```
 
 Then install the plugin for your product:
 
 | Product           | Command                                |
 | ----------------- | -------------------------------------- |
-| Presage Analytics | `/plugin install presage-mcp@isoft`    |
-| ITrack Enterprise | `/plugin install enterprise-mcp@isoft` |
+| Presage Analytics | `/plugin install presage-mcp@ISoft`    |
+| ITrack Enterprise | `/plugin install enterprise-mcp@ISoft` |
 
 ### Without installing a plugin (single skill)
 
