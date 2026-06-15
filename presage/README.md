@@ -16,9 +16,23 @@ Claude skills for the Presage LIMS platform — lab data, work orders, samples, 
 
 ## How to Use
 
-**Upload to Claude chat:** Download the `SKILL.md` from the skill folder you want and attach it to your Claude conversation.
+**Install as a plugin (recommended):** Add this marketplace and enable the
+`presage-mcp` plugin. Both paths work on the free plan — see the
+[repository README](../README.md#install) for step-by-step instructions:
 
-**Install as a plugin:** Install the Presage plugin in Claude Cowork or Claude Code through the plugin browser, or by uploading the `.plugin` file locally.
+- **claude.ai (web or Desktop):** Customize → Plugins → **+** → Create plugin → Add
+  marketplace → `https://github.com/isoftdata/isoft-mcp-plugins`, then enable
+  `presage-mcp`.
+- **Claude Code (CLI):** `/plugin marketplace add isoftdata/isoft-mcp-plugins` then
+  `/plugin install presage-mcp@isoft`.
+
+**Upload a single skill:** In claude.ai, go to Customize → Skills and upload either a
+skill's `SKILL.md` (from its folder under [skills/](skills/)) or a `.zip` of the skill
+folder (use the zip when the skill has a `references/` folder).
+
+**Attach to one chat:** Download a skill's `SKILL.md` and attach it as a file in your
+conversation. This applies only to that chat and does not include the skill's
+`references/` files.
 
 ## Questions
 

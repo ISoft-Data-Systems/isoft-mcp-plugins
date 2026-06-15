@@ -8,10 +8,21 @@ Skills for use with the ITrack Enterprise MCP connector in Claude Desktop.
 2. **ITrack Enterprise MCP** installed and pointed to your server's GraphQL endpoint
 (e.g. `https://your-company.itrackenterprise.com/graphql`)
 
-## Installing Skills
+## Installing
 
-1. Retrieve the `SKILL.md` files from GitHub under `/ai-skills/tree/main/ISoft/skills`
-2. In Claude → **Customize** → **+** → **Create a Skill** → **Upload skill from file**
+**Install as a plugin (recommended):** Add this marketplace and enable the
+`enterprise-mcp` plugin. Both paths work on the free plan — see the
+[repository README](../README.md#install) for step-by-step instructions:
+
+- **claude.ai (web or Desktop):** Customize → Plugins → **+** → Create plugin → Add
+  marketplace → `https://github.com/isoftdata/isoft-mcp-plugins`, then enable
+  `enterprise-mcp`.
+- **Claude Code (CLI):** `/plugin marketplace add isoftdata/isoft-mcp-plugins` then
+  `/plugin install enterprise-mcp@isoft`.
+
+**Upload a single skill:** In claude.ai, go to **Customize → Skills** and upload either
+a skill's `SKILL.md` (from its folder under [skills/](skills/)) or a `.zip` of the skill
+folder (use the zip when the skill has a `references/` folder).
 
 ## Available Skills
 
